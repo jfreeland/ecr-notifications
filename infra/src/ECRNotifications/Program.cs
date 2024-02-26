@@ -3,14 +3,14 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace EcrNotifications
+namespace ECRNotifications
 {
     sealed class Program
     {
         public static void Main(string[] args)
         {
             var app = new App();
-            new EcrNotificationsStack(app, "EcrNotificationsStack", new StackProps
+            new ECRNotificationsStack(app, "ECRNotificationsStack", new StackProps
             {
                 // If you don't specify 'env', this stack will be environment-agnostic.
                 // Account/Region-dependent features and context lookups will not work,

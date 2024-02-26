@@ -1,0 +1,4 @@
+{
+  "dotnet.enableAutomaticPackageRestore": true,
+  "dotnet.autoRestore": true
+}

@@ -1,14 +1,9 @@
-# Welcome to your CDK C# project!
+# ecr-notifications
 
-This is a blank project for CDK development with C#.
+This was a silly project to play a bit more hands on with AWS CDK and C#.
+Inspiration was drawn primarily from
+https://github.com/philips-labs/aws-ecr-scanning-slack-notifications and
+https://github.com/aws-samples/aws-cdk-build-package-publish-dotnet-lambda-function.
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
-
-It uses the [.NET CLI](https://docs.microsoft.com/dotnet/articles/core/) to compile and execute your project.
-
-## Useful commands
-
-* `dotnet build src` compile this app
-* `cdk deploy`       deploy this stack to your default AWS account/region
-* `cdk diff`         compare deployed stack with current state
-* `cdk synth`        emits the synthesized CloudFormation template
+It's 'basically' functional for my silly needs.  There's a lot of clean up to
+be done.
